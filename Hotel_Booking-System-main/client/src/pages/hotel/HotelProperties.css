@@ -1,0 +1,122 @@
+.hotel-properties-container {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 131px;
+  text-align: center;
+  background-image: url('https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') ;
+  background-size: 100% 100%;
+
+ 
+
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.toggle-button, .helpline-button, .comments-button, .reviews-button {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover, .helpline-button:hover, .comments-button:hover, .reviews-button:hover {
+  background-color: #0066b2;
+}
+
+.features-list {
+  list-style: none;
+  margin: 30px auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.features-list li {
+  margin: 10px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.features-list li:hover {
+  transform: translateY(-5px);
+}
+
+.features-list .icon {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.features-list .feature-name {
+  font-size: 18px;
+}
+
+.helpline-number {
+  font-size: 24px;
+  margin: 20px auto;
+}
+
+.comments-container, .reviews-container {
+  margin: 30px auto;
+  text-align: left;
+}
+
+.comments-container h2, .reviews-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.comments-container ul, .reviews-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.comments-container ul li, .reviews-container ul li {
+  margin-bottom: 20px;
+  font-size:  30px;
+}
+
+.star-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.star-rating label {
+  margin-right: 10px;
+  cursor: pointer;
+
+}
+
+.star-rating input[type="radio"] {
+  display: none;
+}
+
+.star {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.rating {
+  font-size: 24px;
+  margin: 21px auto;
+  text-align:center;
+  font-weight: 600;
+}
